@@ -1,4 +1,40 @@
 ﻿#---------------------------------
+# Quick Reference
+#---------------------------------
+-- Script
+local roll_A             = self:GetRandam_Int(1, 100)
+local roll_B             = self:GetRandam_Int(1, 100)
+local roll_C             = self:GetRandam_Int(1, 100)
+local roll_D             = self:GetRandam_Int(1, 100)
+local roll_E             = self:GetRandam_Int(1, 100)
+local number             = self:GetNumber(0)
+
+-- Self
+local self_stamina       = self:GetSp(TARGET_SELF)
+local self_hp_percent    = self:GetHpRate(TARGET_SELF)
+local self_Is2H          = self:IsBothHandMode(TARGET_SELF)
+local self_RightWeapon   = self:GetEquipWeaponIndex(ARM_R)
+local self_LeftWeapon    = self:GetEquipWeaponIndex(ARM_L)
+
+-- Enemy
+local enemy_distance     = self:GetDist(TARGET_ENE_0)
+local enemy_stamina      = self:GetSp(TARGET_ENE_0)
+local enemy_hp_percent   = self:GetHpRate(TARGET_ENE_0)
+local enemy_IsGuarding   = self:IsTargetGuard(TARGET_ENE_0)
+local enemy_Is2H         = self:IsBothHandMode(TARGET_ENE_0)
+
+local enemy_LightAttack  = self:HasSpecialEffectId(TARGET_ENE_0, 150000)
+local enemy_HeavyAttack  = self:HasSpecialEffectId(TARGET_ENE_0, 150001)
+local enemy_SkillAttack  = self:HasSpecialEffectId(TARGET_ENE_0, 150002)
+local enemy_DashAttack   = self:HasSpecialEffectId(TARGET_ENE_0, 150003)
+local enemy_GuardAttack  = self:HasSpecialEffectId(TARGET_ENE_0, 150004)
+local enemy_AmmoAttack   = self:HasSpecialEffectId(TARGET_ENE_0, 150005)
+local enemy_ItemAttack   = self:HasSpecialEffectId(TARGET_ENE_0, 150006)
+local enemy_Gesture      = self:HasSpecialEffectId(TARGET_ENE_0, 150007)
+local enemy_SpellCast    = self:HasSpecialEffectId(TARGET_ENE_0, 150008)
+local enemy_DrinkFlask   = self:HasSpecialEffectId(TARGET_ENE_0, 150009)
+
+#---------------------------------
 # Conditions
 #---------------------------------
 IsSearchTarget( <target> )

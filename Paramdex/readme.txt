@@ -1,0 +1,1 @@
+Copy the DS3 folder into your DSMapStudio/Assets/Paramdex folder to include my changes

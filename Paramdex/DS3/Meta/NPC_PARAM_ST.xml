@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PARAMMETA XmlVersion="0">
+  <Enums>
+	<Enum Name="TeamType">
+		<Option Value="0" Name="None" />
+		<Option Value="1" Name="Live" />
+		<Option Value="2" Name="White Ghost" />
+		<Option Value="3" Name="Black Ghost" />
+		<Option Value="4" Name="Grey Ghost" />
+		<Option Value="5" Name="Wandering Ghost" />
+		<Option Value="6" Name="Enemy" />
+		<Option Value="7" Name="Boss" />
+		<Option Value="8" Name="Ally" />
+		<Option Value="9" Name="Hostile Ally" />
+		<Option Value="10" Name="Decoy" />
+		<Option Value="11" Name="Decoy-like" />
+		<Option Value="12" Name="Battle Ally" />
+		<Option Value="13" Name="Invader" />
+		<Option Value="14" Name="Neutral" />
+		<Option Value="15" Name="Charmed" />
+		<Option Value="16" Name="Invader" />
+		<Option Value="17" Name="Invader" />
+		<Option Value="18" Name="Invader" />
+		<Option Value="19" Name="Host" />
+		<Option Value="20" Name="Co-op" />
+		<Option Value="21" Name="Hostile" />
+		<Option Value="22" Name="Wandering Phantom" />
+		<Option Value="23" Name="Enemy 1" />
+		<Option Value="24" Name="Enemy 2 " />
+		<Option Value="25" Name="Strong Enemy" />
+		<Option Value="26" Name="Friendly NPC" />
+		<Option Value="27" Name="Hostile NPC" />
+		<Option Value="28" Name="Co-op NPC" />
+		<Option Value="29" Name="Indiscriminate" />
+		<Option Value="30" Name="Object" />
+		<Option Value="31" Name="Co-op Mad Phantom" />
+		<Option Value="32" Name="Invader Mad Phantom" />
+		<Option Value="33" Name="Arch Enemy Team" />  
+	</Enum>
+  </Enums>
+  <Field>
+    <Hp AltName="NPC - HP" />
+    <Mp AltName="NPC - FP" />
+    <getSoul AltName="NPC - Dropped Souls" />
+    <ItemLotId1 Refs="ItemLotParam" Wiki="Itemlot ID to be dropped upon death" />
+    <ItemLotId2 Refs="ItemLotParam" Wiki="Itemlot ID to be dropped upon death" />
+    <ItemLotId3 Refs="ItemLotParam" Wiki="Itemlot ID to be dropped upon death" />
+    <ItemLotId4 Refs="ItemLotParam" Wiki="Itemlot ID to be dropped upon death" />
+    <ItemLotId5 Refs="ItemLotParam" Wiki="Itemlot ID to be dropped upon death" />
+    <ItemLotId6 Refs="ItemLotParam" Wiki="Itemlot ID to be dropped upon death" />
+    <humanityLotId Wiki="(Most Likely not used in ds3)" />
+    <spEffectId0 Refs="SpEffectParam" />
+    <spEffectId1 Refs="SpEffectParam" />
+    <spEffectId2 Refs="SpEffectParam" />
+    <spEffectId3 Refs="SpEffectParam" />
+    <spEffectId4 Refs="SpEffectParam" />
+    <spEffectId5 Refs="SpEffectParam" />
+    <spEffectId6 Refs="SpEffectParam" />
+    <spEffectId7 Refs="SpEffectParam" />
+    <GameClearSpEffectID Refs="SpEffectParam" />
+    <physGuardCutRate AltName="Guard Defence: Physical" />
+    <magGuardCutRate AltName="Guard Defence: Magic" />
+    <fireGuardCutRate AltName="Guard Defence: Fire" />
+    <thunGuardCutRate AltName="Guard Defence: Lightning" />
+    <networkWarpDisp AltName="Network Warp Display" />
+    <partsDamageRate1 AltName="Damage %: Parts 1" />
+    <partsDamageRate2 AltName="Damage %: Parts 2" />
+    <partsDamageRate3 AltName="Damage %: Parts 3" />
+    <partsDamageRate4 AltName="Damage %: Parts 4" />
+    <partsDamageRate5 AltName="Damage %: Parts 5" />
+    <partsDamageRate6 AltName="Damage %: Parts 6" />
+    <partsDamageRate7 AltName="Damage %: Parts 7" />
+    <partsDamageRate8 AltName="Damage %: Parts 8" />
+    <weakPartsDamageRate AltName="Damage %: Weak Parts" />
+    <SuperArmorRecoverCorrection AltName="Poise Recovery Correction" />
+    <SuperArmorBrakeKnockbackDist AltName="Poise Knockback Distance" />
+    <staminaRecoverBaseVal AltName="Stamina Recovery" />
+    <defPhys AltName="Defence: Physical" />
+    <defSlash AltName="Defence: Slash" />
+    <defBlow AltName="Defence: Strike" />
+    <defThrust AltName="Defence: Thrust" />
+    <defMag AltName="Defence: Magic" />
+    <defFire AltName="Defence: Fire" />
+    <defThunder AltName="Defence: Lightning" />
+    <defFlickPower AltName="Flick Power" />
+    <slashGuardCutRate AltName="Guard Defence: Slash" />
+    <blowGuardCutRate AltName="Guard Defence: Strike" />
+    <thrustGuardCutRate AltName="Guard Defence: Thrust" />
+    <superArmorDurability AltName="Poise" />
+    <normalChangeTexChrId AltName="Normal Change Texture Chr ID" />
+    <staminaGuardDef AltName="Guard Stamina" />
+    <pcAttrB AltName="PC Attribute B" />
+    <pcAttrW AltName="PC Attribute W" />
+    <pcAttrL AltName="PC Attribute L" />
+    <pcAttrR AltName="PC Attribute R" />
+    <areaAttrB AltName="Area Attribute B" />
+    <areaAttrW AltName="Area Attribute W" />
+    <areaAttrL AltName="Area Attribute L" />
+    <areaAttrR AltName="Area Attribute R" />
+    <mpRecoverBaseVal AltName="FP Recovery" />
+    <flickDamageCutRate AltName="Flick Absorption" />
+    <teamType Enum="TeamType" />
+    <ladderEndChkOffsetTop AltName="Ladder End Check Offset Top" />
+    <ladderEndChkOffsetLow AltName="Ladder End Check Offset Bottom" />
+    <UseRagdollCamHit IsBool="" />
+    <disableClothRigidHit IsBool="" />
+    <UseRagdoll IsBool="" />
+    <isDemon IsBool="" />
+    <isGhost IsBool="" />
+    <isNoDamageMotion IsBool="" />
+    <isUnduration IsBool="" />
+    <isChangeWanderGhost IsBool="" />
+    <ModelDispMask0 IsBool="" />
+    <ModelDispMask1 IsBool="" />
+    <ModelDispMask2 IsBool="" />
+    <ModelDispMask3 IsBool="" />
+    <ModelDispMask4 IsBool="" />
+    <ModelDispMask5 IsBool="" />
+    <ModelDispMask6 IsBool="" />
+    <ModelDispMask7 IsBool="" />
+    <ModelDispMask8 IsBool="" />
+    <ModelDispMask9 IsBool="" />
+    <ModelDispMask10 IsBool="" />
+    <ModelDispMask11 IsBool="" />
+    <ModelDispMask12 IsBool="" />
+    <ModelDispMask13 IsBool="" />
+    <ModelDispMask14 IsBool="" />
+    <ModelDispMask15 IsBool="" />
+    <isEnableNeckTurn IsBool="" />
+    <disableRespawn IsBool="" />
+    <isMoveAnimWait IsBool="" />
+    <isCrowd AltName="Is Crowd" IsBool="" />
+    <isWeakSaint AltName="Is Undead" IsBool="" />
+    <isWeakA AltName="Is Hollow" IsBool="" />
+    <isWeakB AltName="Is Abyssal" IsBool="" />
+    <isEnableDropSoulCapture IsBool="" />
+    <VowType0 IsBool="" />
+    <VowType1 IsBool="" />
+    <VowType2 IsBool="" />
+    <disableIntiliazeDead IsBool="" />
+    <isSoulGetByBoss IsBool="" />
+    <isMultilingual IsBool="" />
+    <Unk1 IsBool="" />
+    <Unk2 IsBool="" />
+    <ModelDispMask16 IsBool="" />
+    <ModelDispMask17 IsBool="" />
+    <ModelDispMask18 IsBool="" />
+    <ModelDispMask19 IsBool="" />
+    <ModelDispMask20 IsBool="" />
+    <ModelDispMask21 IsBool="" />
+    <ModelDispMask22 IsBool="" />
+    <ModelDispMask23 IsBool="" />
+    <ModelDispMask24 IsBool="" />
+    <ModelDispMask25 IsBool="" />
+    <ModelDispMask26 IsBool="" />
+    <ModelDispMask27 IsBool="" />
+    <ModelDispMask28 IsBool="" />
+    <ModelDispMask29 IsBool="" />
+    <ModelDispMask30 IsBool="" />
+    <ModelDispMask31 IsBool="" />
+    <isMultModeBoss AltName="Is Multiplayer Boss" IsBool="" />
+    <Unk3 IsBool="" />
+    <behMemSize AltName="Behaviour Memory Size" IsBool="" />
+    <Unk4 IsBool="" />
+    <isUseFeetData IsBool="" />
+    <Unk5 IsBool="" />
+    <Unk6 IsBool="" />
+    <Unk7 IsBool="" />
+    <spEffectId8 Refs="SpEffectParam" />
+    <spEffectId9 Refs="SpEffectParam" />
+    <spEffectId10 Refs="SpEffectParam" />
+    <spEffectId11 Refs="SpEffectParam" />
+    <spEffectId12 Refs="SpEffectParam" />
+    <spEffectId13 Refs="SpEffectParam" />
+    <spEffectId14 Refs="SpEffectParam" />
+    <spEffectId15 Refs="SpEffectParam" />
+    <regainRate_PhysNeutral AltName="Absorption: Standard" />
+    <regainRate_PhysSlash AltName="Absorption: Slash" />
+    <regainRate_PhysBlow AltName="Absorption: Strike" />
+    <regainRate_PhysThrust AltName="Absorption: Thrust" />
+    <regainRate_Magic AltName="Absorption: Magic" />
+    <regainRate_Fire AltName="Absorption: Fire" />
+    <regainRate_Thunder AltName="Absorption: Lightning" />
+    <regainRate_Dark AltName="Absorption: Dark" />
+    <staminaGuardDefVal AltName="Guard Defence: Stamina Value" />
+    <MultiPlayCorrectionId Refs="MultiPlayCorrectionParam" />
+    <subTeamType Enum="TeamType" />
+    <spEffectId16 Refs="SpEffectParam" />
+    <spEffectId17 Refs="SpEffectParam" />
+    <spEffectId18 Refs="SpEffectParam" />
+    <spEffectId19 Refs="SpEffectParam" />
+    <spEffectId20 Refs="SpEffectParam" />
+    <spEffectId21 Refs="SpEffectParam" />
+    <spEffectId22 Refs="SpEffectParam" />
+    <spEffectId23 Refs="SpEffectParam" />
+    <spEffectId24 Refs="SpEffectParam" />
+    <spEffectId25 Refs="SpEffectParam" />
+    <spEffectId26 Refs="SpEffectParam" />
+    <spEffectId27 Refs="SpEffectParam" />
+    <spEffectId28 Refs="SpEffectParam" />
+    <spEffectId29 Refs="SpEffectParam" />
+    <spEffectId30 Refs="SpEffectParam" />
+    <spEffectId31 Refs="SpEffectParam" />
+    <EstusFlaskParamId Refs="MPEstusFlaskRecoveryParam" />
+    <HPampMP_RestoreId0 AltName="HP/FP Restore ID 0" />
+    <HP_RestoreId0 AltName="HP Restore ID 0" />
+    <MP_RestoreId0 AltName="FP Restore ID 0" />
+    <HPampMP_RestoreId1 AltName="HP/FP Restore ID 1" />
+    <HP_RestoreId1 AltName="HP Restore ID 1" />
+    <MP_RestoreId1 AltName="FP Restore ID 1" />
+  </Field>
+</PARAMMETA>
